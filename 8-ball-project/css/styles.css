@@ -1,0 +1,53 @@
+html {
+  text-align: center;
+}
+
+body {
+  background-color: #28abb9;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Texturina', serif;
+  font-weight: bold;
+  font-size: 5rem;
+  padding: 2.5rem;
+  margin: 2.5rem;
+}
+
+h3 {
+  font-family: 'Texturina', serif;
+}
+
+.ball-img {
+  width: 20rem;
+}
+
+.ball-img:hover{
+  transform: scale(1.1);
+}
+
+
+.fortuneClass {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ball {
+  margin: 30px;
+  display: inline-block;
+  background-color: #222831;
+  color: #eeeeee;
+  height: 80%;
+  border-radius: 15%;
+  box-shadow: black 5px 8px 5px;
+}
+
+#footer {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.ball-big {
+  width: 100rem;
+}
