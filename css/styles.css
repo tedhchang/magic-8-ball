@@ -1,0 +1,104 @@
+html {
+  text-align: center;
+}
+
+body {
+  background-color: #28abb9;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Texturina', serif;
+  font-weight: bold;
+  font-size: 5rem;
+  padding: 2.5rem;
+  margin: 2.5rem;
+}
+
+h3 {
+  font-family: 'Texturina', serif;
+}
+
+.ball-img {
+  width: 20rem;
+}
+
+.ball-img:hover {
+  transform: scale(1.1);
+}
+
+.fortuneClass {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ball {
+  margin: 30px;
+  margin-bottom: 100px;
+  display: inline-block;
+  background-color: #222831;
+  color: #eeeeee;
+  height: 80%;
+  border-radius: 15%;
+  box-shadow: black 5px 8px 5px;
+}
+
+#footer {
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.ball-big {
+  width: 100rem;
+}
+
+
+.arrowIcon {
+  font-size: 50px;
+  margin-bottom: 60px;
+}
+
+#infoText {
+  align-content: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+hr {
+  width: 40%;
+  border-width: medium;
+  border-color: black;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-3px, -10px, -15px);
+  }
+
+  20%, 80% {
+    transform: translate3d(5px, 20px, 12px);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-30px, -30px, -12px);
+  }
+
+  40%, 60% {
+    transform: translate3d(10px, 20px, 7px);
+  }
+}
